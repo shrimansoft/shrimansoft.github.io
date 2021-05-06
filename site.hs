@@ -2,13 +2,17 @@
 {-# LANGUAGE OverloadedStrings #-}
 import           Data.Monoid (mappend)
 import           Hakyll
+import           Hakyll.Core.Compiler (unsafeCompiler)
+import           KaTeX.KaTeXIPC      (kaTeXifyIO)
+-- import           System.FilePath  (splitExtension)
 
 
 --------------------------------------------------------------------------------
 config :: Configuration
 config = defaultConfiguration
   { destinationDirectory = "docs"
- 
+    , previewHost          = "10.0.2.30"
+    , previewPort          = 8000
  }
 --------------------------------------------------------------------------------
 main :: IO ()
@@ -29,7 +33,7 @@ main = hakyllWith config $ do
 
     match "posts/*" $ do
         route $ setExtension "html"
-        compile $ pandocCompiler
+        compile $ pandocMathCompiler
             >>= loadAndApplyTemplate "templates/post.html"    postCtx
             >>= loadAndApplyTemplate "templates/default.html" postCtx
             >>= relativizeUrls
@@ -72,3 +76,18 @@ postCtx =
     dateField "date" "%B %e, %Y" `mappend`
     defaultContext
 
+pandocMathCompiler :: Compiler (Item String)
+pandocMathCompiler = do
+  identifier <- getUnderlying
+  s <- getMetadataField identifier "hls"
+  case s of
+    Just _ -> fail "this is the massage of error"
+    --   pandocCompilerWithTransformM
+    --      defaultHakyllReaderOptions defaultHakyllWriterOptions
+    --      (unsafeCompiler . kaTeXifyIO)
+    Nothing -> 
+      pandocCompilerWithTransformM
+         defaultHakyllReaderOptions defaultHakyllWriterOptions
+         (unsafeCompiler . kaTeXifyIO)
+        -- fail (("pandocCompiler is called, value of s is:  " ++ show s) ++ (" value of identifier is: " ++ show identifier))
+        -- pandocCompiler

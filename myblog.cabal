@@ -1,21 +1,55 @@
-name:                myblog
-version:             0.1.0.0
--- synopsis:
--- description:
-homepage:            https://github.com/githubuser/myblog#readme
-license:             BSD3
-license-file:        LICENSE
-author:              Author name here
-maintainer:          example@example.com
-copyright:           2021 Author name here
-category:            Web
-build-type:          Simple
-extra-source-files:  README.md
-cabal-version:       >=1.10
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.33.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 226c3bcefb674258edf611d15d785d7ffb356f21c3549533223bd27bc7971f49
+
+name:           myblog
+version:        0.1.0.0
+category:       Web
+homepage:       https://github.com/githubuser/myblog#readme
+author:         Author name here
+maintainer:     example@example.com
+copyright:      2021 Author name here
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+
+library
+  exposed-modules:
+      KaTeX.KaTeXIPC
+  other-modules:
+      Paths_myblog
+  hs-source-dirs:
+      src
+  build-depends:
+      aeson
+    , base >=4.7 && <5
+    , bytestring
+    , hakyll
+    , pandoc >=2.11 && <2.14
+    , pandoc-types
+    , text
+    , zeromq4-haskell
+  default-language: Haskell2010
 
 executable myblog
-  main-is:             site.hs
-  default-language:    Haskell2010
-  ghc-options:         -threaded
-  build-depends:       base >= 4.7 && < 5,
-                       hakyll
+  main-is: site.hs
+  other-modules:
+      Paths_myblog
+  ghc-options: -threaded
+  build-depends:
+      aeson
+    , base >=4.7 && <5
+    , bytestring
+    , hakyll
+    , myblog
+    , pandoc >=2.11 && <2.14
+    , pandoc-types
+    , text
+    , zeromq4-haskell
+  default-language: Haskell2010
