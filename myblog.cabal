@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 226c3bcefb674258edf611d15d785d7ffb356f21c3549533223bd27bc7971f49
+-- hash: 9d84571cadba81ab64611473714c5bdad92cab152d3195dfa97437cb041fe725
 
 name:           myblog
 version:        0.1.0.0
@@ -31,7 +31,6 @@ library
     , base >=4.7 && <5
     , bytestring
     , hakyll
-    , pandoc >=2.11 && <2.14
     , pandoc-types
     , text
     , zeromq4-haskell
@@ -47,8 +46,8 @@ executable myblog
     , base >=4.7 && <5
     , bytestring
     , hakyll
+    , hakyll-sass
     , myblog
-    , pandoc >=2.11 && <2.14
     , pandoc-types
     , text
     , zeromq4-haskell

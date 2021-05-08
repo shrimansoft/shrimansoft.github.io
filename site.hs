@@ -1,8 +1,11 @@
+{-# LANGUAGE BlockArguments #-}
 --------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
+{-# OPTIONS_GHC -Wno-deferred-type-errors #-}
 import           Data.Monoid (mappend)
 import           Hakyll
 import           Hakyll.Core.Compiler (unsafeCompiler)
+import           Hakyll.Web.Sass
 import           KaTeX.KaTeXIPC      (kaTeXifyIO)
 -- import           System.FilePath  (splitExtension)
 
@@ -17,11 +20,22 @@ config = defaultConfiguration
 --------------------------------------------------------------------------------
 main :: IO ()
 main = hakyllWith config $ do
-    match "images/*" $ do
+    match "assets/images/*" $ do
         route   idRoute
         compile copyFileCompiler
 
-    match "css/*" $ do
+    match "assets/css/*" $ do
+        route   idRoute
+        compile compressCssCompiler
+    
+    scssDependency <- makePatternDependency "assets/css/themes/**.scss"
+    rulesExtraDependencies [scssDependency]
+    $ match "assets/css/themes/**.scss"
+    $ do
+      route $ setExtension "css"
+      compile (fmap compressCss <$> sassCompiler)
+
+    match "assets/javascript/*" $ do
         route   idRoute
         compile compressCssCompiler
 
@@ -34,17 +48,27 @@ main = hakyllWith config $ do
     match "posts/*" $ do
         route $ setExtension "html"
         compile $ pandocMathCompiler
-            >>= loadAndApplyTemplate "templates/post.html"    postCtx
-            >>= loadAndApplyTemplate "templates/default.html" postCtx
+            >>= loadAndApplyTemplate "templates/post.html"    (postCtx "Posts")
+            >>= loadAndApplyTemplate "templates/default.html" (postCtx "Posts")
             >>= relativizeUrls
+
+
+    match "notes/*" $ do
+        route $ setExtension "html"
+        compile $ pandocMathCompiler
+            >>= loadAndApplyTemplate "templates/notes.html"   (postCtx "Notes")
+            >>= loadAndApplyTemplate "templates/default.html" (postCtx "Notes")
+            >>= relativizeUrls
+
+
 
     create ["archive.html"] $ do
         route idRoute
         compile $ do
             posts <- recentFirst =<< loadAll "posts/*"
             let archiveCtx =
-                    listField "posts" postCtx (return posts) `mappend`
-                    constField "title" "Archives"            `mappend`
+                    listField "posts" (postCtx "Poste-test") (return posts)  <>
+                    constField "pageTitle" "Archives"         <>    
                     defaultContext
 
             makeItem ""
@@ -52,14 +76,32 @@ main = hakyllWith config $ do
                 >>= loadAndApplyTemplate "templates/default.html" archiveCtx
                 >>= relativizeUrls
 
+    create ["notes.html"] $ do
+        route idRoute
+        compile $ do
+            notes <- recentFirst =<< loadAll "notes/*"
+            let archiveCtx =
+                    listField "notes" (postCtx "Notes-test") (return notes)  <>
+                    constField "pageTitle" "Notes"         <>    
+                    defaultContext
+
+            makeItem ""
+                >>= loadAndApplyTemplate "templates/notes-page.html" archiveCtx
+                >>= loadAndApplyTemplate "templates/default.html" archiveCtx
+                >>= relativizeUrls
+
+
 
     match "index.html" $ do
         route idRoute
         compile $ do
             posts <- recentFirst =<< loadAll "posts/*"
+            notes <- recentFirst =<< loadAll "notes/*"
+
             let indexCtx =
-                    listField "posts" postCtx (return posts) `mappend`
-                    constField "title" "Home"                `mappend`
+                    listField "posts" (postCtx "Postes-test2") (return posts) <>
+                    listField "notes" (postCtx "Postes-test2") (return notes) <>
+                    constField "pageTitle" "Home"                <>
                     defaultContext
 
             getResourceBody
@@ -71,10 +113,12 @@ main = hakyllWith config $ do
 
 
 --------------------------------------------------------------------------------
-postCtx :: Context String
-postCtx =
-    dateField "date" "%B %e, %Y" `mappend`
+postCtx :: String -> Context String
+postCtx pageTitle =
+    dateField "date" "%B %e, %Y" <>
+    constField "pageTitle" pageTitle   <>
     defaultContext
+
 
 pandocMathCompiler :: Compiler (Item String)
 pandocMathCompiler = do

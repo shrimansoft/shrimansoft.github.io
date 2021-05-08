@@ -1,29 +1,73 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//ENhttp://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
     <head>
+        <title>SK - $title$</title>
         <script type="text/javascript" src="https://livejs.com/live.js"></script>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <title>My Hakyll Blog - $title$</title>
-        <link rel="stylesheet" type="text/css" href="/css/default.css" />
+        <script type="text/javascript" src="/assets/javascript/copyToClicpboard.js"></script>
+
+
+
+
+
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="{{ site.baseurl }}/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="{{ site.baseurl }}/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="{{ site.baseurl }}/favicon-16x16.png"
+        />
+        <link rel="manifest" href="{{ site.baseurl }}/site.webmanifest" />
+        <link rel="mask-icon" href="{{ site.baseurl }}/safari-pinned-tab.svg" color="#c14953" />
+        <meta name="msapplication-TileColor" content="#f4f2f3" />
+        <meta name="theme-color" content="#c14953" />
+
+        <link
+            rel="alternate"
+            type="application/rss+xml"
+            href="$url$"
+            title="$title$"
+        />
+
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/jekyll-mero.css" />
+
+        <!-- {% if site.color_scheme == "prefers-dark" %}
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/themes/theme-prefers-dark.css" />
+        {% elsif site.color_scheme == "mocha" %}
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/themes/theme-mocha.css" />
+        {% elsif site.color_scheme == "brand-red" %} -->
+        <link rel="stylesheet" href="assets/css/themes/theme-brand-red.css" />
+
     </head>
     <body>
         <div id="header">
             <div id="logo">
-                <a href="/">My Hakyll Blog</a>
+                <a href="/">Shriman's $pageTitle$</a>
             </div>
             <div id="navigation">
                 <a href="/">Home</a>
                 <a href="/about.html">About</a>
                 <a href="/contact.html">Contact</a>
                 <a href="/archive.html">Archive</a>
+                <a href="/notes.html"> Notes</a>
             </div>
         </div>
 
         <div id="content">
-            <h1>$title$</h1>
-
             $body$
         </div>
         <div id="footer">

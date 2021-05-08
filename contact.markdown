@@ -1,6 +1,17 @@
 ---
 title: Contact
+pageTitle: Contact
 ---
 
-I live in a small hut in the mountains of Kumano Kodō on Kii Hantō and would not
-like to be contacted.
+
+* Phone No. : 9993100272
+* Message me: 
+  * signal (9993100272)
+  * whatsapp 
+* social media: 
+  * facebook  
+  * [GitHub](https://github.com/shrimansoft)
+  * [twiter](https://twitter.com/shrimansoft)
+* Email:
+  * shriman.keshri@niser.ac.in  
+  * shrimansoft@gmail.com

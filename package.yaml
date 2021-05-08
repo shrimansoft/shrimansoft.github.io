@@ -16,7 +16,6 @@ library:
   dependencies:
   - base >= 4.7 && < 5
   - hakyll
-  - pandoc    >= 2.11  && < 2.14
   - zeromq4-haskell
   - aeson
   - bytestring
@@ -30,10 +29,10 @@ executable:
   dependencies:
   - base >= 4.7 && < 5
   - hakyll
-  - pandoc    >= 2.11  && < 2.14
   - zeromq4-haskell
   - aeson
   - bytestring
   - pandoc-types
   - text
+  - hakyll-sass
   - myblog
