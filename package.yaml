@@ -17,6 +17,7 @@ library:
   - base >= 4.7 && < 5
   - hakyll
   - zeromq4-haskell
+  - pandoc
   - aeson
   - bytestring
   - pandoc-types

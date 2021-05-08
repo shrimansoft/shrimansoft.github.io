@@ -1,11 +1,11 @@
-{-# LANGUAGE BlockArguments #-}
 --------------------------------------------------------------------------------
+{-# LANGUAGE BlockArguments #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# OPTIONS_GHC -Wno-deferred-type-errors #-}
 import           Data.Monoid (mappend)
 import           Hakyll
 import           Hakyll.Core.Compiler (unsafeCompiler)
-import           Hakyll.Web.Sass
+-- import           Hakyll.Web.Sass
 import           KaTeX.KaTeXIPC      (kaTeXifyIO)
 -- import           System.FilePath  (splitExtension)
 
@@ -24,16 +24,17 @@ main = hakyllWith config $ do
         route   idRoute
         compile copyFileCompiler
 
-    match "assets/css/*" $ do
+    match "assets/css/*.css" $ do
         route   idRoute
         compile compressCssCompiler
     
-    scssDependency <- makePatternDependency "assets/css/themes/**.scss"
-    rulesExtraDependencies [scssDependency]
-    $ match "assets/css/themes/**.scss"
-    $ do
-      route $ setExtension "css"
-      compile (fmap compressCss <$> sassCompiler)
+    -- scssDependency <- makePatternDependency "assets/css/**.scss"
+
+    -- rulesExtraDependencies [scssDependency]
+    --     $ match "assets/css/**.scss"
+    --     $ do
+    --         route $ setExtension "css"
+    --         compile (fmap compressCss <$> sassCompiler)
 
     match "assets/javascript/*" $ do
         route   idRoute
@@ -89,7 +90,6 @@ main = hakyllWith config $ do
                 >>= loadAndApplyTemplate "templates/notes-page.html" archiveCtx
                 >>= loadAndApplyTemplate "templates/default.html" archiveCtx
                 >>= relativizeUrls
-
 
 
     match "index.html" $ do
