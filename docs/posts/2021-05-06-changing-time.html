@@ -1,167 +1,181 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" style="font-size: larger;">
 
 <head>
-    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
-    <link rel="stylesheet" href="../assets/css/styles.css">
-    <title>SK - changing time</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="text/javascript" src="https://livejs.com/live.js"></script>
     <script type="text/javascript" src="../assets/javascript/copyToClicpboard.js"></script>
+    <title>SK - changing time</title>
+    <link rel="stylesheet" href="../assets/css/pure-main.css">
+    <link rel="stylesheet" href="../assets/css/grides-responsive-min.css">
 </head>
 
 <body>
 
-    <div id="layout" class="content pure-g">
-        <div id="nav" class="pure-u">
-            <a href="#" id="menuLink" class="nav-menu-button">Menu</a>
+    <style>
+        .custom-wrapper {
+            background-color: #ffd390;
+            margin-bottom: 1em;
+            -webkit-font-smoothing: antialiased;
+            height: 2.1em;
+            overflow: hidden;
+            -webkit-transition: height 0.5s;
+            -moz-transition: height 0.5s;
+            -ms-transition: height 0.5s;
+            transition: height 0.5s;
+        }
 
-            <div class="nav-inner">
-                <button class="primary-button pure-button" onclick="window.location.href='/';"> Home </button>
+        .custom-wrapper.open {
+            height: 14em;
+        }
 
-                <div class="pure-menu">
-                    <ul class="pure-menu-list">
-                        <li class="pure-menu-item"><a href="../about.html" class="pure-menu-link">About </a></li>
-                        <li class="pure-menu-item"><a href="../contact.html" class="pure-menu-link">Contact</a></li>
-                        <li class="pure-menu-item"><a href="../archive.html" class="pure-menu-link">Archive</a></li>
-                        <li class="pure-menu-item"><a href="../notes.html" class="pure-menu-link">Notes</a></li>
-                        <!-- <li class="pure-menu-item"><a href="#" class="pure-menu-link">Trash</a></li>
-                        <li class="pure-menu-heading">Labels</li>
-                        <li class="pure-menu-item"><a href="#" class="pure-menu-link"><span
-                                    class="email-label-personal"></span>Personal</a></li>
-                        <li class="pure-menu-item"><a href="#" class="pure-menu-link"><span
-                                    class="email-label-work"></span>Work</a></li>
-                        <li class="pure-menu-item"><a href="#" class="pure-menu-link"><span
-                                    class="email-label-travel"></span>Travel</a></li> -->
-                    </ul>
-                </div>
+        .custom-menu-3 {
+            text-align: left;
+        }
+
+        .custom-toggle {
+            width: 34px;
+            height: 34px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            display: block;
+        }
+
+        .custom-toggle .bar {
+            background-color: #777;
+            display: block;
+            width: 20px;
+            height: 2px;
+            border-radius: 100px;
+            position: absolute;
+            top: 18px;
+            right: 7px;
+            -webkit-transition: all 0.5s;
+            -moz-transition: all 0.5s;
+            -ms-transition: all 0.5s;
+            transition: all 0.5s;
+        }
+
+        .custom-toggle .bar:first-child {
+            -webkit-transform: translateY(-6px);
+            -moz-transform: translateY(-6px);
+            -ms-transform: translateY(-6px);
+            transform: translateY(-6px);
+        }
+
+        .custom-toggle.x .bar {
+            -webkit-transform: rotate(45deg);
+            -moz-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+        }
+
+        .custom-toggle.x .bar:first-child {
+            -webkit-transform: rotate(-45deg);
+            -moz-transform: rotate(-45deg);
+            -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+        }
+
+        @media (min-width: 770px) {
+
+            .custom-menu-3 {
+                text-align: right;
+            }
+
+            .custom-toggle {
+                display: none;
+            }
+
+        }
+    </style>
+    <div class="custom-wrapper pure-g" id="menu">
+        <div class="pure-u-1 pure-u-md-1-3">
+            <div class="pure-menu">
+                <a href="#" class="pure-menu-heading custom-brand">Brand</a>
+                <a href="#" class="custom-toggle" id="toggle"><s class="bar"></s><s class="bar"></s></a>
             </div>
         </div>
-
-        <div id="list" class="pure-u-1">
-            <div class="email-item email-item-selected pure-g">
-                <div class="pure-u">
-                    <img width="64" height="64" alt="Tilo Mitra's avatar" class="email-avatar" src="../img/common/tilo-avatar.png">
-                </div>
-
-                <div class="pure-u-3-4">
-                    <h5 class="email-name">Tilo Mitra</h5>
-                    <h4 class="email-subject">Hello from Toronto</h4>
-                    <p class="email-desc">
-                        Hey, I just wanted to check in with you from Toronto. I got here earlier today.
-                    </p>
-                </div>
-            </div>
-
-            <!-- <div class="email-item email-item-unread pure-g">
-                <div class="pure-u">
-                    <img width="64" height="64" alt="Eric Ferraiuolo&#x27;s avatar" class="email-avatar"
-                        src="/img/common/ericf-avatar.png">
-                </div>
-
-                <div class="pure-u-3-4">
-                    <h5 class="email-name">Eric Ferraiuolo</h5>
-                    <h4 class="email-subject">Re: Pull Requests</h4>
-                    <p class="email-desc">
-                        Hey, I had some feedback for pull request #51. We should center the menu so it looks better on
-                        mobile.
-                    </p>
-                </div>
-            </div> -->
-
-            <!-- <div class="email-item email-item-unread pure-g">
-                <div class="pure-u">
-                    <img width="64" height="64" alt="YUI&#x27;s avatar" class="email-avatar"
-                        src="/img/common/yui-avatar.png">
-                </div>
-
-                <div class="pure-u-3-4">
-                    <h5 class="email-name">YUI Library</h5>
-                    <h4 class="email-subject">You have 5 bugs assigned to you</h4>
-                    <p class="email-desc">
-                        Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla.
-                    </p>
-                </div>
-            </div> -->
-
-            <!-- <div class="email-item pure-g">
-                <div class="pure-u">
-                    <img width="64" height="64" alt="Reid Burke&#x27;s avatar" class="email-avatar"
-                        src="/img/common/reid-avatar.png">
-                </div>
-
-                <div class="pure-u-3-4">
-                    <h5 class="email-name">Reid Burke</h5>
-                    <h4 class="email-subject">Re: Design Language</h4>
-                    <p class="email-desc">
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa.
-                    </p>
-                </div>
-            </div> -->
-
-            <!-- <div class="email-item pure-g">
-                <div class="pure-u">
-                    <img width="64" height="64" alt="Andrew Wooldridge&#x27;s avatar" class="email-avatar"
-                        src="/img/common/andrew-avatar.png">
-                </div>
-
-                <div class="pure-u-3-4">
-                    <h5 class="email-name">Andrew Wooldridge</h5>
-                    <h4 class="email-subject">YUI Blog Updates?</h4>
-                    <p class="email-desc">
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
-                    </p>
-                </div>
-            </div> -->
-
-            <!-- <div class="email-item pure-g">
-                <div class="pure-u">
-                    <img width="64" height="64" alt="Yahoo! Finance&#x27;s Avatar" class="email-avatar"
-                        src="/img/common/yfinance-avatar.png">
-                </div>
-
-                <div class="pure-u-3-4">
-                    <h5 class="email-name">Yahoo! Finance</h5>
-                    <h4 class="email-subject">How to protect your finances from winter storms</h4>
-                    <p class="email-desc">
-                        Mauris tempor mi vitae sem aliquet pharetra. Fusce in dui purus, nec malesuada mauris.
-                    </p>
-                </div>
-            </div> -->
-
-            <div class="email-item pure-g">
-                <div class="pure-u">
-                    <img width="64" height="64" alt="Yahoo! News' avatar" class="email-avatar" src="../img/common/ynews-avatar.png">
-                </div>
-
-                <div class="pure-u-3-4">
-                    <h5 class="email-name">Yahoo! News</h5>
-                    <h4 class="email-subject">Summary for April 3rd, 2012</h4>
-                    <p class="email-desc">
-                        We found 10 news articles that you may like.
-                    </p>
-                </div>
+        <div class="pure-u-1 pure-u-md-1-3">
+            <div class="pure-menu pure-menu-horizontal custom-can-transform">
+                <ul class="pure-menu-list">
+                    <li class="pure-menu-item"><a href="../" class="pure-menu-link">Home</a></li>
+                    <li class="pure-menu-item"><a href="../about.html" class="pure-menu-link">About</a></li>
+                    <li class="pure-menu-item"><a href="../contact.html" class="pure-menu-link">Contact</a></li>
+                    <li class="pure-menu-item"><a href="../notes.html" class="pure-menu-link">Notes</a></li>
+                    <li class="pure-menu-item"><a href="../archive.html" class="pure-menu-link">Archive</a></li>
+                </ul>
             </div>
         </div>
+        <!-- <div class="pure-u-1 pure-u-md-1-3">
+            <div class="pure-menu pure-menu-horizontal custom-menu-3 custom-can-transform">
+                <ul class="pure-menu-list">
+                    <li class="pure-menu-item"><a href="#" class="pure-menu-link">Yahoo</a></li>
+                    <li class="pure-menu-item"><a href="#" class="pure-menu-link">W3C</a></li>
+                </ul>
+            </div>
+        </div> -->
+    </div>
+    <script>
+        (function (window, document) {
+            var menu = document.getElementById('menu'),
+                rollback,
+                WINDOW_CHANGE_EVENT = ('onorientationchange' in window) ? 'orientationchange' : 'resize';
 
-        <div id="main" class="pure-u-1">
-            <div class="email-content">
-                <div class="email-content-header pure-g">
-                    <div class="pure-u-1-2">
-                        <h1 class="email-content-title">Hello from Toronto</h1>
-                        <p class="email-content-subtitle">
-                            From <a>Tilo Mitra</a> at <span>3:56pm, April 3, 2012</span>
-                        </p>
-                    </div>
+            function toggleHorizontal() {
+                menu.classList.remove('closing');
+                [].forEach.call(
+                    document.getElementById('menu').querySelectorAll('.custom-can-transform'),
+                    function (el) {
+                        el.classList.toggle('pure-menu-horizontal');
+                    }
+                );
+            };
 
-                    <div class="email-content-controls pure-u-1-2">
-                        <button class="secondary-button pure-button">Reply</button>
-                        <button class="secondary-button pure-button">Forward</button>
-                        <button class="secondary-button pure-button">Move to</button>
-                    </div>
-                </div>
+            function toggleMenu() {
+                // set timeout so that the panel has a chance to roll up
+                // before the menu switches states
+                if (menu.classList.contains('open')) {
+                    menu.classList.add('closing');
+                    rollBack = setTimeout(toggleHorizontal, 500);
+                }
+                else {
+                    if (menu.classList.contains('closing')) {
+                        clearTimeout(rollBack);
+                    } else {
+                        toggleHorizontal();
+                    }
+                }
+                menu.classList.toggle('open');
+                document.getElementById('toggle').classList.toggle('x');
+            };
 
-                <div class="email-content-body">
-                    
+            function closeMenu() {
+                if (menu.classList.contains('open')) {
+                    toggleMenu();
+                }
+            }
+
+            document.getElementById('toggle').addEventListener('click', function (e) {
+                toggleMenu();
+                e.preventDefault();
+            });
+
+            window.addEventListener(WINDOW_CHANGE_EVENT, closeMenu);
+        })(this, this.document);
+
+    </script>
+    <style>
+        .main {
+            padding: 2em;
+            color: black;
+        }
+    </style>
+    <div class="main">
+
+        
 
 <h2>changing time</h2>  
 
@@ -180,61 +194,8 @@
 <p>hello</p>
 <p>I relly love the way this work</p>
 
-                </div>
-            </div>
-        </div>
     </div>
-    <!-- Script to make the Menu link work -->
-    <!-- Just stripped down version of the js/ui.js script for the side-menu layout -->
-    <script>
-        function getElements() {
-            return {
-                menu: document.getElementById('nav'),
-                menuLink: document.getElementById('menuLink')
-            };
-        }
 
-        function toggleClass(element, className) {
-            var classes = element.className.split(/\s+/);
-            var length = classes.length;
-            var i = 0;
-
-            for (; i < length; i++) {
-                if (classes[i] === className) {
-                    classes.splice(i, 1);
-                    break;
-                }
-            }
-            // The className is not found
-            if (length === classes.length) {
-                classes.push(className);
-            }
-
-            element.className = classes.join(' ');
-        }
-
-        function toggleMenu() {
-            var active = 'active';
-            var elements = getElements();
-
-            toggleClass(elements.menu, active);
-        }
-
-        function handleEvent(e) {
-            var elements = getElements();
-
-            if (e.target.id === elements.menuLink.id) {
-                toggleMenu();
-                e.preventDefault();
-            } else if (elements.menu.className.indexOf('active') !== -1) {
-                toggleMenu();
-            }
-        }
-
-        document.addEventListener('DOMContentLoaded', function () {
-            document.addEventListener('click', handleEvent);
-        });
-    </script>
 </body>
 
 </html>

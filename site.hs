@@ -14,7 +14,7 @@ import           KaTeX.KaTeXIPC      (kaTeXifyIO)
 config :: Configuration
 config = defaultConfiguration
   { destinationDirectory = "docs"
-    -- , previewHost          = "10.0.2.30"
+    , previewHost          = "10.0.2.30"
     , previewPort          = 8000
  }
 --------------------------------------------------------------------------------
