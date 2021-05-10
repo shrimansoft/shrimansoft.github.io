@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="text/javascript" src="https://livejs.com/live.js"></script>
-    <title>SK - archive</title>
-    <link rel="stylesheet" href="./assets/css/pure-main.css">
-    <link rel="stylesheet" href="./assets/css/grides-responsive-min.css">
+    <title>SK - changing time</title>
+    <link rel="stylesheet" href="../assets/css/pure-main.css">
+    <link rel="stylesheet" href="../assets/css/grides-responsive-min.css">
 </head>
 
 <body>
@@ -99,18 +99,18 @@
     <div class="custom-wrapper pure-g" id="menu">
         <div class="pure-u-1 pure-u-md-1-3">
             <div class="pure-menu">
-                <a href="./" class="pure-menu-heading custom-brand">SHRIMAN KESHRI</a>
+                <a href="../" class="pure-menu-heading custom-brand">SHRIMAN KESHRI</a>
                 <a href="#" class="custom-toggle" id="toggle"><s class="bar"></s><s class="bar"></s></a>
             </div>
         </div>
         <div class="pure-u-1 pure-u-md-1-3">
             <div class="pure-menu pure-menu-horizontal custom-can-transform">
                 <ul class="pure-menu-list">
-                    <li class="pure-menu-item"><a href="./" class="pure-menu-link">Home</a></li>
-                    <li class="pure-menu-item"><a href="./about.html" class="pure-menu-link">About</a></li>
-                    <li class="pure-menu-item"><a href="./contact.html" class="pure-menu-link">Contact</a></li>
-                    <li class="pure-menu-item"><a href="./notes.html" class="pure-menu-link">Notes</a></li>
-                    <li class="pure-menu-item"><a href="./archive.html" class="pure-menu-link">Archive</a></li>
+                    <li class="pure-menu-item"><a href="../" class="pure-menu-link">Home</a></li>
+                    <li class="pure-menu-item"><a href="../about.html" class="pure-menu-link">About</a></li>
+                    <li class="pure-menu-item"><a href="../contact.html" class="pure-menu-link">Contact</a></li>
+                    <li class="pure-menu-item"><a href="../notes.html" class="pure-menu-link">Notes</a></li>
+                    <li class="pure-menu-item"><a href="../archive.html" class="pure-menu-link">Archive</a></li>
                 </ul>
             </div>
         </div>
@@ -181,11 +181,27 @@
     </style>
     <div class="main">
 
-        Here you can find all my previous posts:
-<ul>
-    
-</ul>
+        
+<h2>changing time</h2>  
 
+
+<div class="info">
+    Posted on May  6, 2021
+    
+</div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.6/dist/katex.css" integrity="sha384-Rzw2BjE04+lZe7EUamW5gwEiZnhiQF2DEyMJwHAdzBlrqvFlb9wAwSBeyfGGBhjU" crossorigin="anonymous">
+<script src="../assets/javascript/jquery-1.10.2.min.js"></script>
+<script src="../assets/javascript/handlebars.js"></script>
+<script src="../assets/javascript/copyToClicpboard.js"></script>
+<script src="../assets/javascript/my-script.js"></script>
+<div id="my-container" class="table-responsive">
+<script id="template" type="text/x-handlebars-template"> 
+{{#each elements}} 
+<button onclick="CopyToClipboard('{{ this.Passcode }}','{{ this.Link }}')">{{ this.Date }} {{ this.Time }}</button> 
+{{/each}} 
+</script>
+</div>
+<h1 id="hello">hello</h1>
 
 
     </div>

@@ -6,4 +6,4 @@
     document.execCommand("copy");
     location.replace(link);
     document.body.removeChild(input);
-    } 
+    }
