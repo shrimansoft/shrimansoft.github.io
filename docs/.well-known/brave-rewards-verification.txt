@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: shrimansoft.github.io
+Token: c1b687d581b5b3ce32ea52b0d6595b6d399550ad22297284e93aec971aa821cd
