@@ -1,0 +1,1 @@
+import{_ as a,o as t,c as s,a as e,b as i}from"./app.e336b089.js";const o={},r=e("h1",{id:"hello-this-is-guide-page",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#hello-this-is-guide-page","aria-hidden":"true"},"#"),i(" hello this is Guide page")],-1),c=[r];function d(n,h){return t(),s("div",null,c)}var _=a(o,[["render",d],["__file","index.html.vue"]]);export{_ as default};
