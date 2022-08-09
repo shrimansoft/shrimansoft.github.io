@@ -1,1 +1,0 @@
-import{_ as a,o as t,c as s,a as e,d as i}from"./app.ceb572aa.js";const o={},d=e("h1",{id:"hello-this-is-guide-page",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#hello-this-is-guide-page","aria-hidden":"true"},"#"),i(" hello this is Guide page")],-1),r=[d];function c(n,h){return t(),s("div",null,r)}var _=a(o,[["render",c],["__file","index.html.vue"]]);export{_ as default};
