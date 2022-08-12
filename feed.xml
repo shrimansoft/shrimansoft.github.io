@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Shriman</title>
+    <link href="https://shrimansoft.github.io/feed.xml" rel="self" />
+    <link href="https://shrimansoft.github.io" />
+    <updated>2022-08-12T11:18:12+05:30</updated>
+    <author>
+        <name>Shriman Keshri</name>
+    </author>
+    <id>https://shrimansoft.github.io</id>
+
+    <entry>
+        <title>Different Story.</title>
+        <author>
+            <name>Shriman Keshri</name>
+        </author>
+        <link href="https://shrimansoft.github.io/different-story.html"/>
+        <id>https://shrimansoft.github.io/different-story.html</id>
+
+        <updated>2022-08-12T11:18:12+05:30</updated>
+            <summary>
+                <![CDATA[
+                    Things we see will change if we tell ourselves a different story. We usually tell the story to ourselves, which makes us feel special, in the story in which everyone loves us. In which I am the one, everyone should care. We have justification for&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+    <blockquote class="blockquote">
+      Things we see will change if we tell ourselves a different story.
+    </blockquote>
+
+  <p>
+    We usually tell the story to ourselves, which makes us feel special, in the story in which everyone loves us. In which I am the one, everyone should care.
+  </p>
+
+    <blockquote class="blockquote">
+      Things we see will change if we tell ourselves a different story.&nbsp;<br>
+    </blockquote>
+
+  <p>
+    We have justification for all the moves we have made. Sometimes we create false assumptions to justify our desires and the things we have done.
+  </p>
+
+    <blockquote class="blockquote">
+      Things we see will change if we tell ourselves a different story.&nbsp;<br>
+    </blockquote>
+
+  <p>
+    We made false exemptions to justify ourselves so we would be the good person in our story.
+  </p>
+
+    <blockquote class="blockquote">
+      Things we see will change if we tell ourselves a different story.&nbsp;<br>
+    </blockquote>
+
+    <blockquote class="blockquote">
+      Things we see will change if we tell ourselves a different story.&nbsp;<br>
+    </blockquote>
+
+    <blockquote class="blockquote">
+      Things we see will change if we tell ourselves a different story.&nbsp;<br>
+    </blockquote>
+
+  <p>
+    
+  </p>
+
+  <p>
+    
+  </p>
+
+  <p>
+    
+  </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>About me</title>
+        <author>
+            <name>Shriman Keshri</name>
+        </author>
+        <link href="https://shrimansoft.github.io/about-me.html"/>
+        <id>https://shrimansoft.github.io/about-me.html</id>
+
+        <updated>2022-08-10T02:13:11+05:30</updated>
+            <summary>
+                <![CDATA[
+                    My intrest.&nbsp; I'm interested in how the world works at the deepest levels, which leads me to research physics and philosophy. My current interests include foundational questions in quantum information, spacetime, complexity, and reinforcement learning, with occasional dabblings elsewhere. Here&nbsp;are the books I like.&nbsp;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+    <h2 id="my-intrestnbsp">
+      My intrest.&nbsp;
+    </h2>
+
+  <p>
+    I'm interested in how the world works at the deepest levels, which leads me to research physics and philosophy. My current interests include foundational questions in quantum information, spacetime, complexity, and reinforcement learning, with occasional dabblings elsewhere. <a href="https://www.goodreads.com/user/show/49255756-shriman-keshri" target="_blank">Here</a>&nbsp;are the books I like.&nbsp;
+  </p>
+            ]]>
+        </content>
+    </entry>
+</feed>
