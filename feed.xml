@@ -3,7 +3,7 @@
     <title>Shriman</title>
     <link href="https://shrimansoft.github.io/feed.xml" rel="self" />
     <link href="https://shrimansoft.github.io" />
-    <updated>2022-08-12T11:18:12+05:30</updated>
+    <updated>2022-08-27T16:31:58+05:30</updated>
     <author>
         <name>Shriman Keshri</name>
     </author>
@@ -84,10 +84,10 @@
         <link href="https://shrimansoft.github.io/about-me.html"/>
         <id>https://shrimansoft.github.io/about-me.html</id>
 
-        <updated>2022-08-10T02:13:11+05:30</updated>
+        <updated>2022-08-27T16:31:58+05:30</updated>
             <summary>
                 <![CDATA[
-                    My intrest.&nbsp; I'm interested in how the world works at the deepest levels, which leads me to research physics and philosophy. My current interests include foundational questions in quantum information, spacetime, complexity, and reinforcement learning, with occasional dabblings elsewhere. Here&nbsp;are the books I like.&nbsp;
+                    My intrest.&nbsp; I'm interested in how the world works at the deepest levels, which leads me to research physics and philosophy. My current interests include foundational questions in quantum information, spacetime, complexity, and reinforcement learning, with occasional dabblings elsewhere. Here&nbsp;are the books I like.&nbsp; Check&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -99,6 +99,10 @@
 
   <p>
     I'm interested in how the world works at the deepest levels, which leads me to research physics and philosophy. My current interests include foundational questions in quantum information, spacetime, complexity, and reinforcement learning, with occasional dabblings elsewhere. <a href="https://www.goodreads.com/user/show/49255756-shriman-keshri" target="_blank">Here</a>&nbsp;are the books I like.&nbsp;
+  </p>
+
+  <p>
+    Check out my <a href="https://shrimansoft.github.io/media/files/CV.pdf" target="_blank">CV</a>
   </p>
             ]]>
         </content>
