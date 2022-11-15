@@ -3,12 +3,76 @@
     <title>Shriman</title>
     <link href="https://shrimansoft.github.io/feed.xml" rel="self" />
     <link href="https://shrimansoft.github.io" />
-    <updated>2022-08-27T16:31:58+05:30</updated>
+    <updated>2022-11-15T15:47:13+05:30</updated>
     <author>
         <name>Shriman Keshri</name>
     </author>
     <id>https://shrimansoft.github.io</id>
 
+    <entry>
+        <title>Deep question</title>
+        <author>
+            <name>Shriman Keshri</name>
+        </author>
+        <link href="https://shrimansoft.github.io/deep-question.html"/>
+        <id>https://shrimansoft.github.io/deep-question.html</id>
+
+        <updated>2022-11-15T15:47:13+05:30</updated>
+            <summary>
+                <![CDATA[
+                    This is the list of questions that makes me carry on. Why do we exist? Do People Have Free Will? Is Nature Moving Towards Dissolution Or Integration? What Gives Life Its Meaning? Why Do We Create Art? Does Time Have A Beginning Or An End?&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>This is the list of questions that makes me carry on. </p>
+<ol>
+<li>
+<h4>Why do we exist? </h4>
+</li>
+<li>
+<h4 class="quest questions-to-ask">Do People Have Free Will? </h4>
+</li>
+<li>
+<h4 class="quest questions-to-ask">Is Nature Moving Towards Dissolution Or Integration?</h4>
+</li>
+<li>
+<h4 class="quest questions-to-ask">What Gives Life Its Meaning?</h4>
+</li>
+<li>
+<h4 class="quest questions-to-ask">Why Do We Create Art?</h4>
+</li>
+<li>
+<h4 class="quest questions-to-ask">Does Time Have A Beginning Or An End?</h4>
+</li>
+<li>
+<h4 class="quest questions-to-ask">Is Our Universe 'Real'?</h4>
+</li>
+<li>
+<h4 class="quest questions-to-ask"><em>How</em> Do You <em>Explain</em> Consciousness?</h4>
+</li>
+<li>
+<h4 class="quest questions-to-ask">What, Exactly, Makes You… <em>You</em>?</h4>
+</li>
+<li>
+<h4 class="quest questions-to-ask">If The Only Thing I Know Is That I Know Nothing, Do I Know Something?</h4>
+</li>
+<li>
+<h4 class="quest questions-to-ask"> If I Were Omnipotent, Could I Create A Rock So Heavy I Couldn't Lift It?</h4>
+</li>
+<li>
+<h4 class="quest questions-to-ask">If Every Cell In My Body Gets Replaced Over 7 Years, Will I Still Be Me In 7 Years?</h4>
+</li>
+<li>
+<h4 class="quest questions-to-ask">If No One Observes An Event, Did It Happen?</h4>
+</li>
+<li>
+<h4>Why is there something rather than nothing? </h4>
+</li>
+</ol>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Different Story.</title>
         <author>
@@ -72,37 +136,6 @@
 
   <p>
     
-  </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>About me</title>
-        <author>
-            <name>Shriman Keshri</name>
-        </author>
-        <link href="https://shrimansoft.github.io/about-me.html"/>
-        <id>https://shrimansoft.github.io/about-me.html</id>
-
-        <updated>2022-08-27T16:31:58+05:30</updated>
-            <summary>
-                <![CDATA[
-                    My intrest.&nbsp; I'm interested in how the world works at the deepest levels, which leads me to research physics and philosophy. My current interests include foundational questions in quantum information, spacetime, complexity, and reinforcement learning, with occasional dabblings elsewhere. Here&nbsp;are the books I like.&nbsp; Check&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                
-    <h2 id="my-intrestnbsp">
-      My intrest.&nbsp;
-    </h2>
-
-  <p>
-    I'm interested in how the world works at the deepest levels, which leads me to research physics and philosophy. My current interests include foundational questions in quantum information, spacetime, complexity, and reinforcement learning, with occasional dabblings elsewhere. <a href="https://www.goodreads.com/user/show/49255756-shriman-keshri" target="_blank">Here</a>&nbsp;are the books I like.&nbsp;
-  </p>
-
-  <p>
-    Check out my <a href="https://shrimansoft.github.io/media/files/CV.pdf" target="_blank">CV</a>
   </p>
             ]]>
         </content>

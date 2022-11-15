@@ -10,6 +10,20 @@
     },
     "items": [
         {
+            "id": "https://shrimansoft.github.io/deep-question.html",
+            "url": "https://shrimansoft.github.io/deep-question.html",
+            "title": "Deep question",
+            "summary": "This is the list of questions that makes me carry on. Why do we exist? Do People Have Free Will? Is Nature Moving Towards Dissolution Or Integration? What Gives Life Its Meaning? Why Do We Create Art? Does Time Have A Beginning Or An End?&hellip;",
+            "content_html": "<p>This is the list of questions that makes me carry on. </p>\n<ol>\n<li>\n<h4>Why do we exist? </h4>\n</li>\n<li>\n<h4 class=\"quest questions-to-ask\">Do People Have Free Will? </h4>\n</li>\n<li>\n<h4 class=\"quest questions-to-ask\">Is Nature Moving Towards Dissolution Or Integration?</h4>\n</li>\n<li>\n<h4 class=\"quest questions-to-ask\">What Gives Life Its Meaning?</h4>\n</li>\n<li>\n<h4 class=\"quest questions-to-ask\">Why Do We Create Art?</h4>\n</li>\n<li>\n<h4 class=\"quest questions-to-ask\">Does Time Have A Beginning Or An End?</h4>\n</li>\n<li>\n<h4 class=\"quest questions-to-ask\">Is Our Universe 'Real'?</h4>\n</li>\n<li>\n<h4 class=\"quest questions-to-ask\"><em>How</em> Do You <em>Explain</em> Consciousness?</h4>\n</li>\n<li>\n<h4 class=\"quest questions-to-ask\">What, Exactly, Makes You… <em>You</em>?</h4>\n</li>\n<li>\n<h4 class=\"quest questions-to-ask\">If The Only Thing I Know Is That I Know Nothing, Do I Know Something?</h4>\n</li>\n<li>\n<h4 class=\"quest questions-to-ask\"> If I Were Omnipotent, Could I Create A Rock So Heavy I Couldn't Lift It?</h4>\n</li>\n<li>\n<h4 class=\"quest questions-to-ask\">If Every Cell In My Body Gets Replaced Over 7 Years, Will I Still Be Me In 7 Years?</h4>\n</li>\n<li>\n<h4 class=\"quest questions-to-ask\">If No One Observes An Event, Did It Happen?</h4>\n</li>\n<li>\n<h4>Why is there something rather than nothing? </h4>\n</li>\n</ol>",
+            "author": {
+                "name": "Shriman Keshri"
+            },
+            "tags": [
+            ],
+            "date_published": "2022-11-15T15:42:19+05:30",
+            "date_modified": "2022-11-15T15:47:13+05:30"
+        },
+        {
             "id": "https://shrimansoft.github.io/different-story.html",
             "url": "https://shrimansoft.github.io/different-story.html",
             "title": "Different Story.",
@@ -22,20 +36,6 @@
             ],
             "date_published": "2022-08-10T02:28:58+05:30",
             "date_modified": "2022-08-12T11:18:12+05:30"
-        },
-        {
-            "id": "https://shrimansoft.github.io/about-me.html",
-            "url": "https://shrimansoft.github.io/about-me.html",
-            "title": "About me",
-            "summary": "My intrest.&nbsp; I'm interested in how the world works at the deepest levels, which leads me to research physics and philosophy. My current interests include foundational questions in quantum information, spacetime, complexity, and reinforcement learning, with occasional dabblings elsewhere. Here&nbsp;are the books I like.&nbsp; Check&hellip;",
-            "content_html": "\n    <h2 id=\"my-intrestnbsp\">\n      My intrest.&nbsp;\n    </h2>\n\n  <p>\n    I'm interested in how the world works at the deepest levels, which leads me to research physics and philosophy. My current interests include foundational questions in quantum information, spacetime, complexity, and reinforcement learning, with occasional dabblings elsewhere. <a href=\"https://www.goodreads.com/user/show/49255756-shriman-keshri\" target=\"_blank\">Here</a>&nbsp;are the books I like.&nbsp;\n  </p>\n\n  <p>\n    Check out my <a href=\"https://shrimansoft.github.io/media/files/CV.pdf\" target=\"_blank\">CV</a>\n  </p>",
-            "author": {
-                "name": "Shriman Keshri"
-            },
-            "tags": [
-            ],
-            "date_published": "2022-08-10T02:13:11+05:30",
-            "date_modified": "2022-08-27T16:31:58+05:30"
         }
     ]
 }
