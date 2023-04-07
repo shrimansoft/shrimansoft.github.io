@@ -10,6 +10,36 @@
     },
     "items": [
         {
+            "id": "https://shrimansoft.github.io/on-monday.html",
+            "url": "https://shrimansoft.github.io/on-monday.html",
+            "title": "On Monday",
+            "summary": "― A.A. Milne, Winnie the Pooh On Monday, when the sun is hot I wonder to myself a lot: “Now is it true, or is it not, “That what is which and which is what?” On Tuesday, when it hails and snows, The feeling on me grows&hellip;",
+            "content_html": "<div class=\"quoteDetails fullLine\">\n<div class=\"quoteText align-left\"><em>― <span class=\"authorOrTitle\">A.A. Milne, </span><span id=\"quote_book_link_8634649\"><a class=\"authorOrTitle\" href=\"https://www.goodreads.com/work/quotes/1225592\">Winnie the Pooh</a></span></em></div>\n</div>\n<p class=\"align-left\">On Monday, when the sun is hot <br>I wonder to myself a lot: <br>“Now is it true, or is it not, <br>“That what is which and which is what?”</p>\n<p class=\"align-left\">On Tuesday, when it hails and snows, <br>The feeling on me grows and grows <br>That hardly anybody knows <br>If those are these or these are those.</p>\n<p class=\"align-left\">On Wednesday, when the sky is blue, <br>And I have nothing else to do, <br>I sometimes wonder if it’s true <br>That who is what and what is who.</p>\n<p class=\"align-left\">On Thursday, when it starts to freeze<br>And hoar-frost twinkles on the trees, <br>How very readily one sees<br>That these are whose—but whose are these? </p>",
+            "author": {
+                "name": "Shriman Keshri"
+            },
+            "tags": [
+                   "Poetry"
+            ],
+            "date_published": "2023-04-07T13:05:28+05:30",
+            "date_modified": "2023-04-07T13:05:51+05:30"
+        },
+        {
+            "id": "https://shrimansoft.github.io/infant-joy.html",
+            "url": "https://shrimansoft.github.io/infant-joy.html",
+            "title": "Infant Joy",
+            "summary": "By WILLIAM BLAKE I have no name I am but two days old.— What shall I call thee? I happy am Joy is my name,— Sweet joy befall thee! Pretty joy! Sweet joy but two days old, Sweet joy I call thee; Thou dost smile.",
+            "content_html": "<div class=\"align-center\"><em>By <a href=\"https://www.poetryfoundation.org/poets/william-blake\">WILLIAM BLAKE</a></em></div>\n<div class=\"align-center\"> </div>\n<div class=\"align-center\">I have no name </div>\n<div class=\"align-center\">I am but two days old.— </div>\n<div class=\"align-center\">What shall I call thee?</div>\n<div class=\"align-center\">I happy am </div>\n<div class=\"align-center\">Joy is my name,— </div>\n<div class=\"align-center\">Sweet joy befall thee!</div>\n<div class=\"align-center\"> </div>\n<div class=\"align-center\">Pretty joy!</div>\n<div class=\"align-center\">Sweet joy but two days old,</div>\n<div class=\"align-center\">Sweet joy I call thee; </div>\n<div class=\"align-center\">Thou dost smile. </div>\n<div class=\"align-center\">I sing the while </div>\n<div class=\"align-center\">Sweet joy befall thee. </div>",
+            "author": {
+                "name": "Shriman Keshri"
+            },
+            "tags": [
+                   "Poetry"
+            ],
+            "date_published": "2023-04-07T12:54:40+05:30",
+            "date_modified": "2023-04-07T12:55:08+05:30"
+        },
+        {
             "id": "https://shrimansoft.github.io/becoming-otherwise.html",
             "url": "https://shrimansoft.github.io/becoming-otherwise.html",
             "title": "Becoming Otherwise",
@@ -19,9 +49,10 @@
                 "name": "Shriman Keshri"
             },
             "tags": [
+                   "Poetry"
             ],
             "date_published": "2023-01-19T22:56:11+05:30",
-            "date_modified": "2023-01-19T22:58:06+05:30"
+            "date_modified": "2023-04-07T12:50:00+05:30"
         },
         {
             "id": "https://shrimansoft.github.io/tools-to-get-insight.html",
