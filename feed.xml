@@ -3,12 +3,50 @@
     <title>Shriman</title>
     <link href="https://shrimansoft.github.io/feed.xml" rel="self" />
     <link href="https://shrimansoft.github.io" />
-    <updated>2023-06-03T12:39:02+05:30</updated>
+    <updated>2023-08-13T07:40:00+00:00</updated>
     <author>
         <name>Shriman Keshri</name>
     </author>
     <id>https://shrimansoft.github.io</id>
 
+    <entry>
+        <title>Things to Know About</title>
+        <author>
+            <name>Shriman Keshri</name>
+        </author>
+        <link href="https://shrimansoft.github.io/things-to-know-about.html"/>
+        <id>https://shrimansoft.github.io/things-to-know-about.html</id>
+
+        <updated>2023-08-13T07:40:00+00:00</updated>
+            <summary>
+                <![CDATA[
+                    This is a list to things that I believe have some thing more then we are aware of. Linux driver How does it work? How does karnal handle this? How to code access this? Randomness Why do Nature is Random? How can we proven in&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>This is a list to things that I believe have some thing more then we are aware of. </p>
+<ol>
+<li><strong>Linux driver </strong>
+<ol>
+<li>How does it work? </li>
+<li>How does karnal handle this?</li>
+<li>How to code access this? </li>
+</ol>
+</li>
+<li><strong>Randomness</strong>
+<ol>
+<li>Why do Nature is Random?</li>
+<li>How can we proven in experiment that the randomness of the nature is true? which doesn't using the fact that nature is random?</li>
+<li>Why do <a href="https://en.wikipedia.org/wiki/Turing_machine" target="_blank" rel="noopener noreferrer">[[turing machine]]</a> whit a coin is capable of something more?</li>
+<li>Why do Nature follow some law ( constraints) and why something are random ( free at least from the Ability of our thought)?</li>
+</ol>
+</li>
+<li> </li>
+</ol>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>How Do I know what I don&#x27;t know</title>
         <author>
@@ -19,7 +57,7 @@
         <media:content url="https://shrimansoft.github.io/media/posts/27/1251837.jpeg" medium="image" />
             <category term="Poetry"/>
 
-        <updated>2023-06-03T12:39:02+05:30</updated>
+        <updated>2023-06-03T07:09:02+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://shrimansoft.github.io/media/posts/27/1251837.jpeg" alt="" />
@@ -53,7 +91,7 @@
         <media:content url="https://shrimansoft.github.io/media/posts/24/on-monday.jpeg" medium="image" />
             <category term="Poetry"/>
 
-        <updated>2023-04-24T18:09:20+05:30</updated>
+        <updated>2023-04-24T12:39:20+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://shrimansoft.github.io/media/posts/24/on-monday.jpeg" alt=" A.A. Milne, Winnie the Pooh" />
@@ -83,7 +121,7 @@
         <media:content url="https://shrimansoft.github.io/media/posts/23/joy.jpeg" medium="image" />
             <category term="Poetry"/>
 
-        <updated>2023-04-24T18:13:40+05:30</updated>
+        <updated>2023-04-24T12:43:40+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://shrimansoft.github.io/media/posts/23/joy.jpeg" alt="Infant Joy" />
@@ -121,7 +159,7 @@
         <media:content url="https://shrimansoft.github.io/media/posts/20/outherwise.jpeg" medium="image" />
             <category term="Poetry"/>
 
-        <updated>2023-04-24T18:16:36+05:30</updated>
+        <updated>2023-04-24T12:46:36+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://shrimansoft.github.io/media/posts/20/outherwise.jpeg" alt="" />
@@ -163,7 +201,7 @@
         <link href="https://shrimansoft.github.io/tools-to-get-insight.html"/>
         <id>https://shrimansoft.github.io/tools-to-get-insight.html</id>
 
-        <updated>2022-11-24T21:50:35+05:30</updated>
+        <updated>2022-11-24T16:20:35+00:00</updated>
             <summary>
                 <![CDATA[
                     Spend your time wisely Click on the image to download the pdf. Take Print and fill the circles of the life you lived. ..
@@ -195,7 +233,7 @@
         <id>https://shrimansoft.github.io/a-different-story.html</id>
         <media:content url="https://shrimansoft.github.io/media/posts/14/thighs-will-change.jpeg" medium="image" />
 
-        <updated>2023-04-24T18:11:09+05:30</updated>
+        <updated>2023-04-24T12:41:09+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://shrimansoft.github.io/media/posts/14/thighs-will-change.jpeg" alt="A different story!! " />
@@ -244,7 +282,7 @@
         <link href="https://shrimansoft.github.io/deep-question.html"/>
         <id>https://shrimansoft.github.io/deep-question.html</id>
 
-        <updated>2022-11-15T15:47:13+05:30</updated>
+        <updated>2022-11-15T10:17:13+00:00</updated>
             <summary>
                 <![CDATA[
                     This is the list of questions that makes me carry on. Why do we exist? Do People Have Free Will? Is Nature Moving Towards Dissolution Or Integration? What Gives Life Its Meaning? Why Do We Create Art? Does Time Have A Beginning Or An End?&hellip;
