@@ -5,7 +5,7 @@
     "home_page_url": "https://shrimansoft.github.io",
     "feed_url": "https://shrimansoft.github.io/feed.json",
     "user_comment": "",
-    "icon": "https://shrimansoft.github.io/media/website/drawing.svg",
+    "icon": "https://shrimansoft.github.io/media/website/unnamed-2.svg",
     "author": {
         "name": "Shriman Keshri"
     },
@@ -15,14 +15,14 @@
             "url": "https://shrimansoft.github.io/things-to-know-about.html",
             "title": "Things to Know About",
             "summary": "This is a list to things that I believe have some thing more then we are aware of.",
-            "content_html": "<p>This is a list to things that I believe have some thing more then we are aware of. </p>\n<ol>\n<li><strong>Linux driver </strong>\n<ol>\n<li>How does it work? </li>\n<li>How does karnal handle this?</li>\n<li>How to code access this? </li>\n</ol>\n</li>\n<li><strong>Randomness</strong>\n<ol>\n<li>Why do Nature is Random?</li>\n<li>How can we proven in experiment that the randomness of the nature is true? which doesn't using the fact that nature is random?</li>\n<li>Why do <a href=\"https://en.wikipedia.org/wiki/Turing_machine\" target=\"_blank\" rel=\"noopener noreferrer\">Turing Machine</a> whit a coin is capable of something more?</li>\n<li>Why do Nature follow some law ( constraints) and why something are random ( free at least from the Ability of our thought)?</li>\n<li>Why do nature show properties like <strong><a href=\"https://en.wikipedia.org/wiki/Ergodic_hypothesis\" target=\"_blank\" rel=\"noopener noreferrer\">ergodic hypothesis?</a></strong></li>\n</ol>\n</li>\n<li> </li>\n</ol>\n<p> </p>",
+            "content_html": "<p>This is a list to things that I believe have some thing more then we are aware of. </p>\n<ol>\n<li><strong>Linux driver </strong>\n<ol>\n<li>How does it work? </li>\n<li>How does karnal handle this?</li>\n<li>How to code access this? </li>\n</ol>\n</li>\n<li><strong>Randomness</strong>\n<ol>\n<li>Why do Nature is Random?</li>\n<li>How can we proven in experiment that the randomness of the nature is true? which doesn't using the fact that nature is random?</li>\n<li>Why do <a href=\"https://en.wikipedia.org/wiki/Turing_machine\" target=\"_blank\" rel=\"noopener noreferrer\">Turing Machine</a> whit a coin is capable of something more?</li>\n<li>Why do Nature follow some law ( constraints) and why something are random ( free at least from the Ability of our thought)?</li>\n<li>Why do nature show properties like <strong><a href=\"https://en.wikipedia.org/wiki/Ergodic_hypothesis\" target=\"_blank\" rel=\"noopener noreferrer\">ergodic hypothesis?</a></strong></li>\n</ol>\n</li>\n<li><strong>Machine Learning</strong>\n<ol>\n<li> </li>\n</ol>\n</li>\n</ol>\n<p> </p>",
             "author": {
                 "name": "Shriman Keshri"
             },
             "tags": [
             ],
             "date_published": "2023-08-13T07:40:00+00:00",
-            "date_modified": "2023-09-28T09:07:05+00:00"
+            "date_modified": "2023-09-28T09:23:58+00:00"
         },
         {
             "id": "https://shrimansoft.github.io/how-do-i-know-what-i-dont-know-2.html",

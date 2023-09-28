@@ -3,7 +3,7 @@
     <title>Shriman</title>
     <link href="https://shrimansoft.github.io/feed.xml" rel="self" />
     <link href="https://shrimansoft.github.io" />
-    <updated>2023-09-28T09:07:05+00:00</updated>
+    <updated>2023-09-28T09:23:58+00:00</updated>
     <author>
         <name>Shriman Keshri</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://shrimansoft.github.io/things-to-know-about.html"/>
         <id>https://shrimansoft.github.io/things-to-know-about.html</id>
 
-        <updated>2023-09-28T09:07:05+00:00</updated>
+        <updated>2023-09-28T09:23:58+00:00</updated>
             <summary>
                 <![CDATA[
                     This is a list to things that I believe have some thing more then we are aware of.
@@ -43,7 +43,11 @@
 <li>Why do nature show properties like <strong><a href="https://en.wikipedia.org/wiki/Ergodic_hypothesis" target="_blank" rel="noopener noreferrer">ergodic hypothesis?</a></strong></li>
 </ol>
 </li>
+<li><strong>Machine Learning</strong>
+<ol>
 <li> </li>
+</ol>
+</li>
 </ol>
 <p> </p>
             ]]>
