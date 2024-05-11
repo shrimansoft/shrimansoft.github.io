@@ -5,25 +5,11 @@
     "home_page_url": "https://shrimansoft.github.io",
     "feed_url": "https://shrimansoft.github.io/feed.json",
     "user_comment": "",
-    "icon": "https://shrimansoft.github.io/media/website/unnamed-2.svg",
+    "icon": "https://shrimansoft.github.io/media/website/drawing.svg",
     "author": {
         "name": "Shriman Keshri"
     },
     "items": [
-        {
-            "id": "https://shrimansoft.github.io/things-to-know-about.html",
-            "url": "https://shrimansoft.github.io/things-to-know-about.html",
-            "title": "Things to Know About",
-            "summary": "This is a list to things that I believe have some thing more then we are aware of.",
-            "content_html": "<p>This is a list to things that I believe have some thing more then we are aware of. </p>\n<ol>\n<li><strong>Linux driver </strong>\n<ol>\n<li>How does it work? </li>\n<li>How does karnal handle this?</li>\n<li>How to code access this? </li>\n</ol>\n</li>\n<li><strong>Randomness</strong>\n<ol>\n<li>Why do Nature is Random?</li>\n<li>How can we proven in experiment that the randomness of the nature is true? which doesn't using the fact that nature is random?</li>\n<li>Why do <a href=\"https://en.wikipedia.org/wiki/Turing_machine\" target=\"_blank\" rel=\"noopener noreferrer\">Turing Machine</a> whit a coin is capable of something more?</li>\n<li>Why do Nature follow some law ( constraints) and why something are random ( free at least from the Ability of our thought)?</li>\n<li>Why do nature show properties like <strong><a href=\"https://en.wikipedia.org/wiki/Ergodic_hypothesis\" target=\"_blank\" rel=\"noopener noreferrer\">ergodic hypothesis?</a></strong></li>\n</ol>\n</li>\n<li><strong>Machine Learning</strong>\n<ol>\n<li> </li>\n</ol>\n</li>\n</ol>\n<p> </p>",
-            "author": {
-                "name": "Shriman Keshri"
-            },
-            "tags": [
-            ],
-            "date_published": "2023-08-13T07:40:00+00:00",
-            "date_modified": "2023-09-28T09:23:58+00:00"
-        },
         {
             "id": "https://shrimansoft.github.io/how-do-i-know-what-i-dont-know-2.html",
             "url": "https://shrimansoft.github.io/how-do-i-know-what-i-dont-know-2.html",
@@ -37,8 +23,8 @@
             "tags": [
                    "Poetry"
             ],
-            "date_published": "2023-06-02T05:42:06+00:00",
-            "date_modified": "2023-06-03T07:09:02+00:00"
+            "date_published": "2023-06-02T11:12:06+05:30",
+            "date_modified": "2023-06-03T12:39:02+05:30"
         },
         {
             "id": "https://shrimansoft.github.io/on-monday.html",
@@ -53,8 +39,8 @@
             "tags": [
                    "Poetry"
             ],
-            "date_published": "2023-04-07T07:35:28+00:00",
-            "date_modified": "2023-04-24T12:39:20+00:00"
+            "date_published": "2023-04-07T13:05:28+05:30",
+            "date_modified": "2023-04-24T18:09:20+05:30"
         },
         {
             "id": "https://shrimansoft.github.io/infant-joy.html",
@@ -69,8 +55,8 @@
             "tags": [
                    "Poetry"
             ],
-            "date_published": "2023-04-07T07:24:40+00:00",
-            "date_modified": "2023-04-24T12:43:40+00:00"
+            "date_published": "2023-04-07T12:54:40+05:30",
+            "date_modified": "2023-04-24T18:13:40+05:30"
         },
         {
             "id": "https://shrimansoft.github.io/becoming-otherwise.html",
@@ -85,22 +71,22 @@
             "tags": [
                    "Poetry"
             ],
-            "date_published": "2023-01-19T17:26:11+00:00",
-            "date_modified": "2023-04-24T12:46:36+00:00"
+            "date_published": "2023-01-19T22:56:11+05:30",
+            "date_modified": "2023-04-24T18:16:36+05:30"
         },
         {
             "id": "https://shrimansoft.github.io/tools-to-get-insight.html",
             "url": "https://shrimansoft.github.io/tools-to-get-insight.html",
             "title": "Tools to get Insight",
             "summary": "Spend your time wisely Click on the image to download the pdf. Take Print and fill the circles of the life you lived. ..",
-            "content_html": "<h1 class=\"align-center\">Spend your time wisely</h1>\n<figure class=\"post__image post__image--center\"><a href=\"https://shrimansoft.github.io/spend your time wisely.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"><img decoding=\"async\" loading=\"lazy\"  src=\"https://shrimansoft.github.io/media/posts/19//spend-you-time-wisely.jpeg\" alt=\"\" width=\"500\" height=\"647\" sizes=\"100vw\" srcset=\"https://shrimansoft.github.io/media/posts/19//responsive/spend-you-time-wisely-xs.jpeg 300w ,https://shrimansoft.github.io/media/posts/19//responsive/spend-you-time-wisely-sm.jpeg 480w ,https://shrimansoft.github.io/media/posts/19//responsive/spend-you-time-wisely-md.jpeg 768w ,https://shrimansoft.github.io/media/posts/19//responsive/spend-you-time-wisely-lg.jpeg 1024w ,https://shrimansoft.github.io/media/posts/19//responsive/spend-you-time-wisely-xl.jpeg 1360w ,https://shrimansoft.github.io/media/posts/19//responsive/spend-you-time-wisely-2xl.jpeg 1600w\"></figure></a></p>\n<p>Click on the image to download the pdf. </p>\n<p> </p>\n<p>Take Print and fill the circles of the life you lived.</p>\n<p> </p>\n<p> </p>\n<p> </p>\n<p> </p>\n<p> </p>\n<p>..</p>\n<p> </p>",
+            "content_html": "<h1 class=\"align-center\">Spend your time wisely</h1>\n<figure class=\"post__image post__image--center\"><a href=\"https://shrimansoft.github.io/spend your time wisely.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"><img loading=\"lazy\"  src=\"https://shrimansoft.github.io/media/posts/19//spend-you-time-wisely.jpeg\" alt=\"\" width=\"500\" height=\"647\" sizes=\"100vw\" srcset=\"https://shrimansoft.github.io/media/posts/19//responsive/spend-you-time-wisely-xs.jpeg 300w ,https://shrimansoft.github.io/media/posts/19//responsive/spend-you-time-wisely-sm.jpeg 480w ,https://shrimansoft.github.io/media/posts/19//responsive/spend-you-time-wisely-md.jpeg 768w ,https://shrimansoft.github.io/media/posts/19//responsive/spend-you-time-wisely-lg.jpeg 1024w ,https://shrimansoft.github.io/media/posts/19//responsive/spend-you-time-wisely-xl.jpeg 1360w ,https://shrimansoft.github.io/media/posts/19//responsive/spend-you-time-wisely-2xl.jpeg 1600w\"></figure></a></p>\n<p>Click on the image to download the pdf. </p>\n<p> </p>\n<p>Take Print and fill the circles of the life you lived.</p>\n<p> </p>\n<p> </p>\n<p> </p>\n<p> </p>\n<p> </p>\n<p>..</p>\n<p> </p>",
             "author": {
                 "name": "Shriman Keshri"
             },
             "tags": [
             ],
-            "date_published": "2022-11-24T15:55:14+00:00",
-            "date_modified": "2022-11-24T16:20:35+00:00"
+            "date_published": "2022-11-24T21:25:14+05:30",
+            "date_modified": "2022-11-24T21:50:35+05:30"
         },
         {
             "id": "https://shrimansoft.github.io/a-different-story.html",
@@ -114,8 +100,8 @@
             },
             "tags": [
             ],
-            "date_published": "2022-11-15T20:27:35+00:00",
-            "date_modified": "2023-04-24T12:41:09+00:00"
+            "date_published": "2022-11-16T01:57:35+05:30",
+            "date_modified": "2023-04-24T18:11:09+05:30"
         },
         {
             "id": "https://shrimansoft.github.io/deep-question.html",
@@ -128,8 +114,8 @@
             },
             "tags": [
             ],
-            "date_published": "2022-11-15T10:12:19+00:00",
-            "date_modified": "2022-11-15T10:17:13+00:00"
+            "date_published": "2022-11-15T15:42:19+05:30",
+            "date_modified": "2022-11-15T15:47:13+05:30"
         }
     ]
 }
